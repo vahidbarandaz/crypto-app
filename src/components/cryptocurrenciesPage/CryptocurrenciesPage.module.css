@@ -1,0 +1,60 @@
+.container{
+    text-align: center;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.inputContainer {
+    margin: 100px 0;
+}
+
+.inputContainer input {
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #555;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.inputContainer input:focus {
+    outline: none;
+}
+.inputContainer input::placeholder {
+    opacity: .5;
+}
+
+.cryptoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+@media (max-width: 1257px) {
+    .container{
+        padding: 0 150px;
+    }
+}
+@media (max-width: 1228px) {
+    .container{
+        padding: 0 30px;
+    }
+
+}
+@media (max-width: 1007px) {
+    .container{
+        padding: 0 10px;
+    }
+
+}
+@media (max-width: 1007px) {
+    .cryptoContainer{
+        justify-content: center;
+    }
+
+}

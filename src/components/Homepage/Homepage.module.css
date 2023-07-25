@@ -1,0 +1,147 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding:20px 30px;
+    background: transparent;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.titleContainer h2 {
+    color: #555;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.titleContainer a {
+    color: #1a73e8;
+    border: 1px solid #1a73e8;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.statsContainer {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.statsContainer div {
+    flex: 1;
+}
+
+.statsContainer h5 {
+    color: #8395a7;
+    margin: 20px 0;
+}
+
+.statsContainer span {
+    font-size: 1.6rem;
+        color: #555;
+}
+
+
+.cryptoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.newsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1575px) {
+    .newsMainContainer{
+        padding: 0 120px;
+    }
+}
+
+@media (max-width: 1388px) {
+    .newsMainContainer{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 1211px) {
+    .newsMainContainer{
+        padding: 0 30px;
+    }
+
+    .newsContainer{
+        justify-content: center;
+    }
+}
+@media (max-width: 1257px) {
+    .cryptoMainContainer{
+        padding: 0 150px;
+    }
+
+    .titleContainer h2{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 1228px) {
+    .cryptoMainContainer{
+        padding: 0 30px;
+    }
+
+    .titleContainer h2{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 1007px) {
+    .cryptoMainContainer{
+        padding: 0 10px;
+    }
+
+    .titleContainer h2{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 1007px) {
+    .cryptoContainer{
+        justify-content: center;
+    }
+
+    .titleContainer h2{
+        font-size: 1.3rem;
+    }
+}
+@media (max-width: 825px) {
+    
+    .titleContainer h2{
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+    .titleContainer {
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    
+    .newsMainContainer{
+        padding: 0;
+    }
+
+}
+
